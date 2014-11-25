@@ -6,7 +6,6 @@ public class Craps {
 		Scanner input = new Scanner(System.in);
 		int choice = -1;
 		while (true) {
-			int pointValue = 0;
 			do {
 				System.out.println("Enter 1 to play craps, enter 0 to quit");
 				choice = input.nextInt();
