@@ -7,7 +7,7 @@ public class Craps {
 		int choice = -1;
 		while (true) {
 			do {
-				System.out.println("Enter 1 to play craps, enter 0 to quit");
+				System.out.println("Enter 1 to play craps, enter 0 to quit.");
 				choice = input.nextInt();
 			} while(choice != 1 && choice != 0);
 
