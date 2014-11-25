@@ -38,8 +38,7 @@ public class Craps {
 
 	// Generate a result of a craps roll
 	public static int rollDice() {
-		int roll = (int) (1 + Math.random() * 6);
-		return roll += (int) (1 + Math.random() * 6);
+		return (int) (1 + Math.random() * 6) + (int) (1 + Math.random() * 6);
 	}
 
 	// Check if craps (roll is 2, 3, or 12)
